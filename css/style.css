@@ -1,0 +1,44 @@
+body{
+    background-color: green;
+    text-align: center;
+    background-image: url(../images/blckimg.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+h1{
+    color: #F7C04A;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 2% 0;
+}
+#message_el{
+     font-size: 2rem;
+     font-weight: 600;
+     color: antiquewhite;
+     font-style: italic;
+}
+p{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-weight: 800;
+}
+button{
+    color:#016f32;
+    width:200px;
+    height: 2.5rem;
+    background-color: #FFB72B;
+    font-weight: 800;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 7px;
+   }
+   button:hover{
+    background-color: bisque;
+   }
+   @media(max-width:1000px){
+        h1{
+            font-size: 3rem;
+            padding:0;
+        }
+   }
+   
